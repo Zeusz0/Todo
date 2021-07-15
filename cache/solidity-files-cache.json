@@ -1,0 +1,39 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\Documents\\Munka\\Solidity\\Todo\\contracts\\Todo.sol": {
+      "lastModificationDate": 1624621343605,
+      "contentHash": "709d7c8b6a2c01b2c1cdc596bfc17f5b",
+      "sourceName": "contracts/Todo.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Todo"
+      ]
+    }
+  }
+}
