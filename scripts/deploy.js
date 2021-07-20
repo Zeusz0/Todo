@@ -14,14 +14,17 @@ async function main() {
     const todo = await Todo.deploy();
   
     console.log("Todo address:", todo.address);
+    console.log("Task Count:",todo.taskCount());
 
     const data = {
         address: todo.address,
         abi: JSON.parse(todo.interface.format('json'))
     };
-    fs.writeFileSync('frontend/src/contracts/Todo.json',JSON.stringify(data));
+    fs.writeFileSync('frontend_React/src/contracts/Todo.json',JSON.stringify(data));
   }
+
   
+
   main()
     .then(() => process.exit(0))
     .catch(error => {

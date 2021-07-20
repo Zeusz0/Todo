@@ -1,0 +1,4 @@
+Todo.adress
+todoList.adress
+todoList = await Todo.deployed()
+todoList = await TodoList.deployed()
